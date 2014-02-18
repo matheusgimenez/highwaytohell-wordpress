@@ -1,0 +1,104 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link type="text/css" rel="stylesheet" href="foundation.css" />
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+<title>Documento sem título</title>
+</head>
+<body>
+<header>
+<div class="row">
+<div class="large-12 columns">
+<div class="small-3 columns">
+<img src="imgs/logo.png"/>
+</div>
+<div class="small-3 columns disk">
+</div>
+</div>
+</div>
+<nav class="row">
+<div class="large-8 small-10 columns">
+<a href="#" style="margin-left:0px;">Início</a>
+<a href="#">A Empresa</a>
+<a href="#">Serviços</a>
+<a href="#">Localização</a>
+<a href="#">Contato</a>
+</div>
+<div class="large-4 small-2 columns">
+<a href="#">
+<img src="imgs/fbico.png">
+</a>
+</div>
+</nav>
+</div>
+</header>  
+ <div class="row">
+ <!-- Nav Sidebar -->
+    <!-- This is source ordered to be pulled to the left on larger screens -->
+    <div class="large-3 columns ">
+    <div class="nav1">Navegação</div>
+<div class="menu1">
+<a href="#">Principal</a>
+<hr/>
+<a href="#">Comercio</a>
+<hr/>
+<a href="#">Cinema</a>
+<hr/>
+<a href="#">A Cidade</a>
+<hr/>
+<a href="#">Noticias</a>
+<hr/>
+<a href="#">Telefones</a>
+<hr/>
+<a href="#">Horarios de Onibus</a>
+<hr/>
+<a href="#">Previsão de Ondas</a>
+<hr/>
+<a href="#">Previsão do Tempo</a>
+<hr/>
+<a href="#">TV Itapema</a>
+<hr/>
+<a href="#">Classificados</a>
+</div>
+    </div>
+    
+    <!-- Main Feed -->
+    <!-- This has been source ordered to come first in the markup (and on small devices) but to be to the right of the nav on larger screens -->
+    <div class="large-6 columns">
+	   <div class="row">
+        <div class="large-12 columns">
+        <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="images/toystory.jpg" data-thumb="images/toystory.jpg" alt="" />
+                <img src="images/up.jpg" data-thumb="images/up.jpg" alt=""/>
+                <img src="images/walle.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft" />
+                <img src="images/nemo.jpg" data-thumb="images/nemo.jpg" alt="" />
+            </div>
+            </div>
+        </div>
+      </div>
+    </div>
+ 
+    <!-- Right Sidebar -->
+    <!-- On small devices this column is hidden -->
+    <aside class="large-3 columns hide-for-small">
+      <p><img src="http://placehold.it/300x440&text=[ad]" /></p>
+      <p><img src="http://placehold.it/300x440&text=[ad]" /></p>
+    </aside>
+ 
+  </div>
+ 
+ 
+  <!-- Footer -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+	</script>
+  </body>
+</html>
